@@ -3,10 +3,6 @@
     padding-bottom: 10px;
 
     .header-wrap {
-        max-width: 1160px;
-        margin: 0 auto;
-        padding: 0 20px;
-
         .logo {
             display: inline-block;
             width: 5%; 
@@ -23,7 +19,6 @@
         .main-nav {
             display: inline-block;
             width: 70%;
-            float: left;
 
             .menu-list {
                 max-width: 100%;
@@ -98,12 +93,8 @@
                     }
                 }
 
-                .menu-item:hover {
-                    border-bottom: 4px solid #004C89;
-
-                    .item-name {
-                        color: #393a3d;
-                    }
+                .menu-item:hover .item-name {
+                    color: #393a3d;
                 }
             }
         }
@@ -114,22 +105,6 @@
             position: relative;
             float: right;
             transform: translateY(14%);
-
-            .button {
-                display: inline-block;
-                width: auto;
-                margin: 0 0 0 8px;
-                border-radius: 4px;
-                text-align: center;
-                touch-action: manipulation;
-                transition: all .24s ease-in-out;
-                line-height: 1;
-                white-space: nowrap;
-                padding: 8px 12px;
-                font-size: 16px;
-                margin-left: 20px;
-                vertical-align: middle;
-            }
 
             .button:first-child {
                 margin-left: 37px;
