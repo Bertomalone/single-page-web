@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css" integrity="sha256-5l8WteQfd84Jq51ydHtcndbGRvgCVE3D0+s97yV4oms=" crossorigin="anonymous" />
 </head>
 <body>
     <header class="header-menu">
@@ -65,7 +66,7 @@
 
     <main>
         <section class="banner-section">
-            <div class="container">
+            <div class="container clearfix banner-section__container-height">
                 <div class="banner-section__banner-desctiption">
                     <div class="banner-section__banner-content">
                         <h1 class="banner-section__title">This is banner title</h1>
@@ -78,14 +79,161 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="banner-section__banner-background-image">
-                <div class="centercrop-image">
-                    <img src="image/chibookhero_0.jpg" alt="banner-image">
+                <div class="banner-section__banner-background-image">
+                    <div class="centercrop-image">
+                        <img src="image/chibookhero_0.jpg" alt="banner-image">
+                    </div>
                 </div>
             </div>
         </section>
+
+        <section class="best-seller-section">
+            <div class="container">
+                <h1 class="best-seller-section__title-text">Best Seller Novels</h1>
+                <div class="best-seller-section__title-bar"></div>
+            </div>
+
+            <div class="best-seller-section__slider">
+                <div class="best-seller-section__nav-wrap best-seller-section__nav-wrap--prev-wrapper">
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <div class="swiper-container best-seller-section__swiper-container">
+                    <div class="swiper-wrapper best-seller-section__wrapper">
+                        <div class="swiper-slide best-seller-section__item-slide">
+                            <a href="#" class="best-seller-section__item">
+                                <div class="best-seller-section__cover">
+                                    <div class="centercrop-image">
+                                        <img src="image/novel-cover/SammieBudgie-full-cover.jpg" alt="novel-cover">
+                                    </div>
+                                </div>
+                                
+                                <div class="best-seller-section__short-description">
+                                    <h3>Novel Title - 01</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Dolore suscipit excepturi maxime optio tempore amet minima ...</p>
+                                    <ul class="best-seller-section__short-description__upload-date">
+                                        <li>29</li>
+                                        <li>April</li>
+                                        <li>2019</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide best-seller-section__item-slide">
+                            <a href="#" class="best-seller-section__item">
+                                <div class="best-seller-section__cover">
+                                    <div class="centercrop-image">
+                                        <img src="image/novel-cover/SammieBudgie-full-cover.jpg" alt="novel-cover">
+                                    </div>
+                                </div>
+                                
+                                <div class="best-seller-section__short-description">
+                                    <h3>Novel Title - 02</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Dolore suscipit excepturi maxime optio tempore amet minima ...</p>
+                                    <ul class="best-seller-section__short-description__upload-date">
+                                        <li>29</li>
+                                        <li>April</li>
+                                        <li>2019</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide best-seller-section__item-slide">
+                            <a href="#" class="best-seller-section__item">
+                                <div class="best-seller-section__cover">
+                                    <div class="centercrop-image">
+                                        <img src="image/novel-cover/SammieBudgie-full-cover.jpg" alt="novel-cover">
+                                    </div>
+                                </div>
+                                
+                                <div class="best-seller-section__short-description">
+                                    <h3>Novel Title - 03</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Dolore suscipit excepturi maxime optio tempore amet minima ...</p>
+                                    <ul class="best-seller-section__short-description__upload-date">
+                                        <li>29</li>
+                                        <li>April</li>
+                                        <li>2019</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide best-seller-section__item-slide">
+                            <a href="#" class="best-seller-section__item">
+                                <div class="best-seller-section__cover">
+                                    <div class="centercrop-image">
+                                        <img src="image/novel-cover/SammieBudgie-full-cover.jpg" alt="novel-cover">
+                                    </div>
+                                </div>
+                                
+                                <div class="best-seller-section__short-description">
+                                    <h3>Novel Title - 04</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Dolore suscipit excepturi maxime optio tempore amet minima ...</p>
+                                    <ul class="best-seller-section__short-description__upload-date">
+                                        <li>29</li>
+                                        <li>April</li>
+                                        <li>2019</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide best-seller-section__item-slide">
+                            <a href="#" class="best-seller-section__item">
+                                <div class="best-seller-section__cover">
+                                    <div class="centercrop-image">
+                                        <img src="image/novel-cover/SammieBudgie-full-cover.jpg" alt="novel-cover">
+                                    </div>
+                                </div>
+                                
+                                <div class="best-seller-section__short-description">
+                                    <h3>Novel Title - 05</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Dolore suscipit excepturi maxime optio tempore amet minima ...</p>
+                                    <ul class="best-seller-section__short-description__upload-date">
+                                        <li>29</li>
+                                        <li>April</li>
+                                        <li>2019</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide best-seller-section__item-slide">
+                            <a href="#" class="best-seller-section__item">
+                                <div class="best-seller-section__cover">
+                                    <div class="centercrop-image">
+                                        <img src="image/novel-cover/SammieBudgie-full-cover.jpg" alt="novel-cover">
+                                    </div>
+                                </div>
+                                
+                                <div class="best-seller-section__short-description">
+                                    <h3>Novel Title - 06</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Dolore suscipit excepturi maxime optio tempore amet minima ...</p>
+                                    <ul class="best-seller-section__short-description__upload-date">
+                                        <li>29</li>
+                                        <li>April</li>
+                                        <li>2019</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="best-seller-section__nav-wrap best-seller-section__nav-wrap--next-wrapper">
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        
     </main>    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js" integrity="sha256-dl0WVCl8jXMBZfvnMeygnB0+bvqp5wBqqlZ8Wi95lLo=" crossorigin="anonymous"></script>
+    <script src="script/main.js"></script>
+
 </body>
 </html>

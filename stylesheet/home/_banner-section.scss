@@ -1,4 +1,9 @@
 .banner-section {
+
+    &__container-height {
+        height: 405px;
+    }
+
     &__banner-desctiption {
         margin-left: calc(41.66667% - 28.33333px + 40px);
         width: calc(58.33333% - 31.66667px);
